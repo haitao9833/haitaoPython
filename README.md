@@ -24,3 +24,10 @@ pip install sklearn.mainfold      -i https://pypi.tuna.tsinghua.edu.cn/simple/
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 conda install transformers
 ```
+# 基础语法（`base_`）
+
+# 数据处理（`data_`）
+
+# 数据可视化（`vis_`）
+
+# 预训练语言模型（`pre_`）
