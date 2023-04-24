@@ -1,4 +1,4 @@
-# Python 快速使用教程 & Jupyter Notebook
+# Python & Jupyter Notebook & 深度学习教程
 
 <img src="https://img.shields.io/badge/Jupyter Notebook-基础语法-ff5722.svg?colorA=FFFAF0&colorB=ff69b4&logo=jupyter" />
 <img src="https://img.shields.io/badge/Jupyter Notebook-数据处理 | Txt | Excel | Json -ff5722.svg?colorA=FFFAF0&colorB=ff69b4&logo=databricks" />
