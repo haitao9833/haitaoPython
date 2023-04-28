@@ -25,12 +25,50 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c cond
 conda install transformers
 ```
 # 基础语法
-> `base_`
+## `base_`
+
+- List
+- Tuple
+- String
+- Dictionary
+- for 循环
+
+## `base_Numpy`
+
+- 创建
+- 属性
+- 变维
+- 运算
+- 比较
+- 切片 & 访问
+- 副本 & 视图
+- 缺省值 `np.nan`
+- 一维 `ndarray` 的拼接
+- 二维 `ndarray` 的拼接
+- 扁平化
+- 降维
+
+## `base_Pandas`
+
+- Index
+- Series
+- DataFrame（内容较多）
 
 # 数据处理
 > `data_`
 
+## `data_Use`
+
+- 路径
+- 通用函数
+- 正则表达式
+
+## `data_Test`
+
+- 使用 `data_Tool.ipynb` 进行数据处理的案例
+
 # 数据可视化
+
 > `vis_`
 
 # 预训练语言模型
