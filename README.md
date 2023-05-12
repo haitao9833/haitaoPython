@@ -20,6 +20,7 @@ pip install plotly                -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install pythonds              -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install stanfordcorenlp       -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install sklearn.mainfold      -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip install pyecharts -U          -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 conda install transformers
