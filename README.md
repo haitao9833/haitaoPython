@@ -70,7 +70,10 @@ conda install transformers
 
 # 数据可视化
 
-> `vis_`
+<div align="center" style="display:flex">
+		<img hspace="0px" width="400px" height="300px" src="/echarts1.png" title="鼠标停留" alt="加载失败" />
+		<img hspace="0px" width="400px" height="300px" src="/echarts2.png" title="鼠标停留" alt="加载失败" />
+</div>
 
 # 预训练语言模型
 > `pre_`
