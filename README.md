@@ -25,7 +25,18 @@ pip install pyecharts -U          -i https://pypi.tuna.tsinghua.edu.cn/simple/
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 conda install transformers
 ```
+# 数据可视化
+
+<div align="center" style="display:flex">
+		<img hspace="0px" width="800px" height="600px" src="/echarts1.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+		<img hspace="0px" width="800px" height="600px" src="/echarts2.png" title="鼠标停留" alt="加载失败" />
+</div>
+
 # 基础语法
+
 ## `base_`
 
 - List
@@ -67,13 +78,6 @@ conda install transformers
 ## `data_Test`
 
 - 使用 `data_Tool.ipynb` 进行数据处理的案例
-
-# 数据可视化
-
-<div align="center" style="display:flex">
-		<img hspace="0px" width="400px" height="300px" src="/echarts1.png" title="鼠标停留" alt="加载失败" />
-		<img hspace="0px" width="400px" height="300px" src="/echarts2.png" title="鼠标停留" alt="加载失败" />
-</div>
 
 # 预训练语言模型
 > `pre_`
