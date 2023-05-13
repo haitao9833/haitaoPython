@@ -35,6 +35,33 @@ conda install transformers
 	<img hspace="0px" width="1200px" height="401px" src="/echarts2.png" title="鼠标停留" alt="加载失败" />
 </div>
 
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts3.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts4.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts5.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts6.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts7.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts8.png" title="鼠标停留" alt="加载失败" />
+</div>
+
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="401px" src="/echarts9.png" title="鼠标停留" alt="加载失败" />
+</div>
 
 # 基础语法
 
