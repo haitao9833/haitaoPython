@@ -28,11 +28,12 @@ conda install transformers
 # 数据可视化
 
 <div align="center" style="display:flex">
-	<img hspace="0px" width="433px" height="233px" src="/echarts1.png" title="鼠标停留" alt="加载失败" />
-    <img hspace="0px" width="433px" height="233px" src="/echarts2.png" title="鼠标停留" alt="加载失败" />
+	<img hspace="0px" width="1200px" height="533px" src="/echarts1.png" title="鼠标停留" alt="加载失败" />
 </div>
 
-
+<div align="center" style="display:flex">
+	<img hspace="0px" width="1200px" height="533px" src="/echarts2.png" title="鼠标停留" alt="加载失败" />
+</div>
 
 
 # 基础语法
