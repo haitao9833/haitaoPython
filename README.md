@@ -75,16 +75,23 @@ conda install transformers
 
 ## 事件
 
-> - 并事件 `==` 和事件：$A\cup B\ =\ A+B$（至少有一个发生）
-> - 交事件 `==` 积事件：$A\cap B\ =\ A\ \cdot\ B$（同时发生） 
-> - 互斥事件：$P(A_1\ \cup\ A_2\ \cup\ \ldots\ \cup\ A_n)=P(A_1)\ +\ P(A_2)\ +\ \ldots\ +\ P(A_n)$ （不能同时发生）
-> - 非互斥情况：$P(A\ \cup\ B)\ =\ P(A)\ +\ P(B)\ -\ P(A\ \cap\ B)$  （即减去重复的面积）
+> - 并事件 `==` 和事件（至少有一个发生）：
+> $$A\cup B\ =\ A+B$$
+> - 交事件 `==` 积事件（同时发生） ：
+> $$A\cap B\ =\ A\ \cdot\ B$$
+> - 互斥事件（不能同时发生）：
+> $$P(A_1\ \cup\ A_2\ \cup\ \ldots\ \cup\ A_n)=P(A_1)\ +\ P(A_2)\ +\ \ldots\ +\ P(A_n)$$ 
+> - 非互斥情况（即减去重复的面积）：
+> $$P(A\ \cup\ B)\ =\ P(A)\ +\ P(B)\ -\ P(A\ \cap\ B)$$  
 
 ## 三概率
 
-> - 联合概率：$P(A\cap B)=\frac{A\cap B\ 交集面积}{\Omega\ 全面积}$   
-> - 边缘概率：$P(A)=\frac{A\ 面积}{\Omega\ 全面积}$   
-> - 条件概率：$P(B| A)=\frac{A\cap B\ 交集面积}{A\ 面积}$   
+> - 联合概率：
+> $$P(A\cap B)=\frac{A\cap B\ 交集面积}{\Omega\ 全面积}$$   
+> - 边缘概率：
+> $$P(A)=\frac{A\ 面积}{\Omega\ 全面积}$$   
+> - 条件概率：
+> $$P(B| A)=\frac{A\cap B\ 交集面积}{A\ 面积}$$   
 >
 > $$
 > P(B|A)\ =\ \frac{P(A\ \cap\ B)}{P(A)}\ =\ \frac{P(B|A)\cdot P(A)}{P(A)}\ =\ \frac{P(A|B)\cdot P(B)}{P(A)}
@@ -92,7 +99,7 @@ conda install transformers
 
 ## 乘法法则
 
-> - 分解联合概率，用面积理解，即所有事件的**<u>交集面积</u>**   
+> - 分解联合概率，用面积理解，即所有事件的**交集面积**   
 >
 > $$
 > P(A\ \cap\ B\ \cap\ C\ \cap\ \ldots\ \cap\ N)\ =\ P(A)\ \cdot\ P(B|A)\ \cdot\ P(C|A\cap B)\ \ldots
@@ -101,9 +108,15 @@ conda install transformers
 ## 两公式
 
 > - 设：$B$ 为结果
-> - 设：$\{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}$ 两两互斥且 $A_1\ \cup\ A_2\ \cup\ \ldots\ \cup\ A_n\ =\ \Omega$ 为所有原因
-> - 全概率公式：$P(B)\ =\ \sum联合概率\ =\ 即\ B\ 与所有原因\ \{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}\ 的交集面积总和=\frac{B\ 面积}{\Omega\ 全面积}$   
-> - 贝叶斯公式：$\frac{P(B\ \cap\ A_i)}{P(B)}=\frac{B\ 与某个原因\ A_i\ 的交集面积}{B\ 与所有原因\ \{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}\ 的交集面积总和}$   
+> - 设：
+> $$\{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}$$
+>  两两互斥且 
+>  $$A_1\ \cup\ A_2\ \cup\ \ldots\ \cup\ A_n\ =\ \Omega$$
+>   为所有原因
+> - 全概率公式：
+> $$P(B)\ =\ \sum联合概率\ =\ 即\ B\ 与所有原因\ \{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}\ 的交集面积总和=\frac{B\ 面积}{\Omega\ 全面积}$$   
+> - 贝叶斯公式：
+> $$\frac{P(B\ \cap\ A_i)}{P(B)}=\frac{B\ 与某个原因\ A_i\ 的交集面积}{B\ 与所有原因\ \{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}\ 的交集面积总和}$$   
 
 ## 排列组合
 
@@ -132,7 +145,9 @@ conda install transformers
 ## 独立性
 
 > - **<u>概率与条件无关，添加或删除条件不影响概率</u>** 
-> - $三个（或以上）个事件之间相互独立\Leftrightarrow\left\{\begin{aligned}&两两独立\Leftrightarrow\left\{\begin{aligned}&A\ 与\ B\ 独立\Leftrightarrow P(AB)=P(A)\cdot P(B)\\&A\ 与\ C\ 独立\Leftrightarrow P(AC)=P(A)\cdot P(C)\\&B\ 与\ C\ 独立\Leftrightarrow P(BC)=P(B)\cdot P(C)\end{aligned}\right.\\&组合独立\Leftrightarrow\left\{\begin{aligned}&A\ 与\ BC\ 独立\\&B\ 与\ AC\ 独立\\&C\ 与\ AB\ 独立\end{aligned}\right.\left\}\begin{aligned}&\\&\\&\end{aligned}\right.\leftrightharpoons P(ABC)=P(A)\cdot P(B)\cdot P(C)\end{aligned}\right.$   
+ ```math
+三个（或以上）个事件之间相互独立\Leftrightarrow\left\{\begin{aligned}&两两独立\Leftrightarrow\left\{\begin{aligned}&A\ 与\ B\ 独立\Leftrightarrow P(AB)=P(A)\cdot P(B)\\&A\ 与\ C\ 独立\Leftrightarrow P(AC)=P(A)\cdot P(C)\\&B\ 与\ C\ 独立\Leftrightarrow P(BC)=P(B)\cdot P(C)\end{aligned}\right.\\&组合独立\Leftrightarrow\left\{\begin{aligned}&A\ 与\ BC\ 独立\\&B\ 与\ AC\ 独立\\&C\ 与\ AB\ 独立\end{aligned}\right.\left\}\begin{aligned}&\\&\\&\end{aligned}\right.\leftrightharpoons P(ABC)=P(A)\cdot P(B)\cdot P(C)\end{aligned}\right. 
+```
 > - $\leftrightharpoons$ 表示左右两边需要搭配两两独立条件才能相互推出
 >
 > $$
