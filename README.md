@@ -62,6 +62,9 @@ conda install transformers
 <div align="center" style="display:flex">
 	<img hspace="0px" width="1200px" height="401px" src="/echarts9.png" title="鼠标停留" alt="加载失败" />
 </div>
+
+![](https://cdn.jsdelivr.net/gh/haitao9833/haitaoGallery@main/%E5%9B%BE%E5%BA%8A01/202305181248154.png)
+
 # 概率论基础
 
 # 科学计数法
