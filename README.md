@@ -109,9 +109,9 @@ conda install transformers
 
 > - 设：$B$ 为结果
 > - 设：
-> $$\{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}$$
->  两两互斥且 
->  $$A_1\ \cup\ A_2\ \cup\ \ldots\ \cup\ A_n\ =\ \Omega$$
+>   $$\{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}$$
+>    两两互斥且 
+>    $$A_1\ \cup\ A_2\ \cup\ \ldots\ \cup\ A_n\ =\ \Omega$$
 >   为所有原因
 > - 全概率公式：
 > $$P(B)\ =\ \sum联合概率\ =\ 即\ B\ 与所有原因\ \{A_1\ ,\ A_2\ ,\ \ldots\ ,\ A_n\}\ 的交集面积总和=\frac{B\ 面积}{\Omega\ 全面积}$$   
@@ -147,7 +147,7 @@ conda install transformers
 > - **<u>概率与条件无关，添加或删除条件不影响概率</u>** 
  ```math
 三个（或以上）个事件之间相互独立\Leftrightarrow\left\{\begin{aligned}&两两独立\Leftrightarrow\left\{\begin{aligned}&A\ 与\ B\ 独立\Leftrightarrow P(AB)=P(A)\cdot P(B)\\&A\ 与\ C\ 独立\Leftrightarrow P(AC)=P(A)\cdot P(C)\\&B\ 与\ C\ 独立\Leftrightarrow P(BC)=P(B)\cdot P(C)\end{aligned}\right.\\&组合独立\Leftrightarrow\left\{\begin{aligned}&A\ 与\ BC\ 独立\\&B\ 与\ AC\ 独立\\&C\ 与\ AB\ 独立\end{aligned}\right.\left\}\begin{aligned}&\\&\\&\end{aligned}\right.\leftrightharpoons P(ABC)=P(A)\cdot P(B)\cdot P(C)\end{aligned}\right. 
-```
+ ```
 > - $\leftrightharpoons$ 表示左右两边需要搭配两两独立条件才能相互推出
 >
 > $$
